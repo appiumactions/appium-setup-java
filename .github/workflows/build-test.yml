@@ -5,6 +5,7 @@ on:
     branches:
       - 'feature/**'
       - 'bugfix/**'
+      - 'release/**'
   pull_request:
     branches: [ main ]
 
