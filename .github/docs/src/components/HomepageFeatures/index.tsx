@@ -10,31 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Manage the session and device',
-    Svg: require('@site/static/img/undraw_push_notifications.svg').default,
+    title: 'Capabilities File',
+    Svg: require('@site/static/img/undraw_setup.svg').default,
     description: (
       <>
-        Using driver scripts, manage the test session and device.
+        Configuration of capabilities for the test session outside of the java code.
       </>
     ),
   },
   {
-    title: 'Android and iOS',
-    Svg: require('@site/static/img/undraw_notifications.svg').default,
+    title: 'Parameterized Files',
+    Svg: require('@site/static/img/undraw_select.svg').default,
     description: (
       <>
-        Use XCUITest and UiAutomator2 scripts, taking advantage of the performance 
-        and functionality of native Android and iOS drivers.
+        Possibility of having different capacity files with simple management.
       </>
     ),
   },
   {
-    title: 'Automate complex actions',
-    Svg: require('@site/static/img/undraw_swipe.svg').default,
+    title: 'Test Suite',
+    Svg: require('@site/static/img/undraw_browser_stats.svg').default,
     description: (
       <>
-        Perform complex actions such as scroll, swipe, pinch 
-        and many others in your automated tests.
+        Capacity management for creating test suites.
       </>
     ),
   }
