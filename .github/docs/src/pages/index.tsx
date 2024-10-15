@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Appium Mobile Actions Java`}
+      title={`Appium Setup Java`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
